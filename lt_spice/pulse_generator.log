@@ -1,0 +1,28 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\Github\pulse_generator_for_lpg_injectors\lt_spice\pulse_generator.asc
+Start Time: Tue Jan 13 19:42:51 2026
+solver = Normal
+Maximum thread count: 16
+
+
+
+Direct Newton iteration for .op point succeeded.
+.step wiper=0.1
+
+
+
+.step wiper=0.3
+
+
+
+.step wiper=0.5
+
+
+
+.step wiper=0.7
+tnom = 27
+temp = 27
+method = modified trap
+.step wiper=0.9
+Total elapsed time: 0.477 seconds.
+
