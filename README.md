@@ -7,6 +7,7 @@ Our injectors are (uzupełnić), with (uzupełnić) ohm impedancy.
 We've provided analysis in LTspice. Default settings are:
 - 5 minutes of working,
 - 50 Hz in output of NE555.
+
 If you would like to change any setting here's little guide:
 - time changing -> (podać nazwy sygnałów),
 - frequency changing -> (też podać nazwy).
