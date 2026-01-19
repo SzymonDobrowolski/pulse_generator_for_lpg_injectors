@@ -39,7 +39,7 @@ Based on the NE555 astable multivibrator configuration with adjustable frequency
 
 | Parameter | Value |
 | :--- | :--- |
-| **Dimensions** | ~91mm x 91mm |
+| **Dimensions** | ~95mm x 95mm |
 | **Layers** | 2 (Top Signal, Bottom Power) |
 | **Material** | FR-4 Standard |
 | **Thickness** | 1.6 mm |
@@ -84,7 +84,7 @@ Production-ready files are available in this repository. The project has been va
 **Use at your own risk.** This device controls fuel injectors which operate with flammable liquids and high currents.
 * Always ensure proper ventilation when working with fuel.
 * Ensure the MOSFET is properly isolated if the heatsink is not grounded.
-* The authors is not responsible for any damage to injectors, power supplies, or other equipment resulting from the use of this project.
+* The authors are not responsible for any damage to injectors, power supplies, or other equipment resulting from the use of this project.
 
 ---
 *Designed in Altium Designer.*
