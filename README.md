@@ -1,78 +1,90 @@
-# LPG Injector Pulse Generator & Cleaner
+# LPG & Gasoline Injector Pulse Generator / Tester
 
-![Project Status](https://img.shields.io/badge/Status-Prototype-yellow)
-![EDA Software](https://img.shields.io/badge/Designed_in-Altium_Designer-blue)
+A professional PCB project for an injector driver designed to test and clean LPG (Liquefied Petroleum Gas) and gasoline fuel injectors. This device generates pulses to open injectors, making it an essential tool for ultrasonic cleaning baths or bench testing.
 
-## 📖 Overview
-This project is a standalone, high-current pulse generator designed specifically for **cleaning, testing, and diagnosing low-impedance LPG injectors** (e.g., Tartarini, Valtek, Magic Jet). 
+![3D ISO View](img/PCB_ISO.png)
 
-Unlike simple "clickers," this device features full adjustability of **Frequency**, **Pulse Width (PWM)**, and **Operation Time**, allowing for safe and effective cleaning without overheating the injector coils.
+## 📋 Project Overview
 
-## 🚀 Key Features
+This project is built around the robust **NE555 timer** and the high-performance **IRF3205 MOSFET**. The PCB is engineered specifically to handle high current spikes typical of low-impedance injector coils.
 
-* **⚡ Master-Slave Architecture:** Based on two NE555 timers for reliability and analog precision.
-* **⏱️ Automatic Safety Timer (Master):** Adjustable operation time (approx. 3 to 10 minutes). The device automatically cuts off power after the set time to prevent unattended operation.
-* **🎛️ Adjustable Duty Cycle (PWM):** Precise control over the injector opening time. Allows you to set the "power" of the pulse to prevent coil overheating while maintaining effective cleaning.
-* **🔄 Variable Frequency Ranges:** Switchable frequency modes to suit different tasks:
-    * **Low Frequency (~1 Hz):** For listening tests and checking for stuck pintles.
-    * **High Frequency (~25-50 Hz):** For dynamic cleaning and flow simulation.
-* **🛡️ Robust Protection:**
-    * Flyback diodes (Schottky) on each channel to protect against high-voltage spikes.
-    * High-current MOSFET design capable of driving **4 injectors** simultaneously (parallel connection).
-    * Fuse protection on the main power input.
+It allows the user to simulate engine operation by driving the injectors, enabling effective cleaning of internal components when submerged in ultrasonic baths.
+
+### Key Features
+* **High Current Design:** Powered by an **IRF3205** TO-220 MOSFET, capable of handling significant inductive loads.
+* **Thermal Management:** Dedicated Keep-Out Zone and footprint for a substantial heatsink (e.g., Fischer Elektronik SK 09 20 SA) for continuous operation.
+* **Open Solder Mask Traces:** The bottom power traces feature exposed copper (no solder mask), allowing for manual tinning to significantly increase current carrying capacity.
+* **Robust Connectivity:** Industrial-grade 5.08mm screw terminals (ARK) for secure power and injector connections.
+* **Safety:** Integrated fuse holder footprint for circuit protection.
+
+---
+
+## 📸 Design Gallery
+
+### Top Layout
+Clean component placement optimized for airflow and easy assembly.
+![Top View](img/PCB_TOP.png)
+
+### Bottom Layout (Power Plane)
+Features wide, exposed tracks for the high-current path (Drain/Source) to minimize resistance and heat.
+![Bottom View](img/PCB_BOT.png)
+
+### Schematic Diagram
+Based on the NE555 astable multivibrator configuration with adjustable frequency/duty cycle.
+![Schematic](img/SCHEMATIC.png)
+
+---
 
 ## ⚙️ Technical Specifications
 
-| Parameter | Value / Range |
+| Parameter | Value |
 | :--- | :--- |
-| **Input Voltage** | 12V - 14.4V DC (Car Battery or High-Current PSU) |
-| **Target Injectors** | Low Impedance (1Ω - 3Ω), e.g., Tartarini, Valtek |
-| **Current Capacity** | up to 20A Peak (4 injectors) |
-| **Timer Range** | Adjustable ~3 min – 10 min |
-| **Frequency** | Selectable ranges (approx. 1Hz / 50Hz) |
-| **PWM Range** | Adjustable ~5% – 95% |
-
-## 🧠 Circuit Concept
-
-The device operates on a **Master-Slave** principle using two NE555 ICs:
-
-1.  **U2 (Master - Monostable Mode):**
-    * Activated by a tactile switch.
-    * Controls the `RESET` pin of the second timer.
-    * Determines how long the cleaning process lasts.
-2.  **U1 (Slave - Astable PWM Mode):**
-    * Generates the actual pulses driving the MOSFET.
-    * Uses a specialized diode-steering circuit to allow fixed-frequency PWM adjustment.
-    * Capacitor switching allows for jumping between frequency ranges (Test/Clean modes).
-
-## 🛠️ Hardware & PCB
-
-The PCB was designed in **Altium Designer** with a focus on high-current handling.
-
-* **Power Paths:** Wide traces and polygon pours on 12V and GND lines to handle the combined current of 4 coils.
-* **Thermal Management:** Layout includes space for a heatsink on the main MOSFET (IRF3205/IRFZ44N).
-* **Components:** Uses standard THT components for easy assembly by hobbyists.
-
-### BOM (Key Components)
-* 2x NE555 Timers
-* 1x IRF3205 or IRFZ44N MOSFET
-* 4x 1N5822 / SB540 Schottky Diodes (Flyback protection)
-* Potentiometers for Time & PWM control
-* Passive components (Resistors, Capacitors)
-
-## 📂 Project Structure
-
-* `/Altium` - Source project files (Schematic, PCB).
-* `/Gerber` - Production files for PCB manufacturing (JLCPCB/PCBWay ready).
-* `/Simulation` - LTspice simulation models used for circuit analysis.
-* `/Docs` - Additional diagrams and schematics.
-
-## ⚠️ Safety Disclaimer
-**Warning:** This device controls high-current inductive loads and is often used with flammable cleaning fluids (e.g., brake cleaner, gasoline).
-* Always work in a well-ventilated area.
-* Ensure the power supply has a proper current rating (min. 15A).
-* Do not leave the device unattended during operation.
-* The author is not responsible for any damage caused by improper use or assembly.
+| **Dimensions** | ~91mm x 91mm |
+| **Layers** | 2 (Top Signal, Bottom Power) |
+| **Material** | FR-4 Standard |
+| **Thickness** | 1.6 mm |
+| **Copper Weight** | 1 oz (35µm) - *Tinning recommended* |
+| **Power Input** | 12V DC (Automotive standard) |
+| **Mounting** | 4x M3 Mounting Holes |
 
 ---
-*Created by [Twoje Imię/Nick]*
+
+## 🛠️ Bill of Materials (Key Components)
+
+| Designator | Component | Description |
+| :--- | :--- | :--- |
+| **Q1** | **IRF3205** | N-Channel Power MOSFET, TO-220 |
+| **U1** | **NE555P** | Precision Timer DIP-8 |
+| **Heatsink** | SK 09 20 SA | Fischer Elektronik (or compatible TO-220 vertical heatsink) |
+| **J1 - J4** | ARK 5.08mm | 2-pin Screw Terminal Blocks |
+| **VR1** | Potentiometer | For Frequency/Duty Cycle adjustment |
+| **F1** | Fuse Holder | Automotive blade fuse holder |
+
+---
+
+## 🚀 Manufacturing (Gerber Files)
+
+Production-ready files are available in this repository. The project has been validated for manufacturing with standard low-cost PCB houses (JLCPCB, PCBWay).
+
+**Files location:**
+* `/Project Outputs` contains the raw output.
+* Check the **Releases** section for the zipped `Pulse_generator_gerber_files.zip`.
+
+**Recommended Ordering Settings:**
+* **Layers:** 2
+* **Thickness:** 1.6mm
+* **Solder Mask:** Green (or preferred color)
+* **Surface Finish:** HASL (Lead or Lead-Free)
+* **Remove Order Number:** Specify "Yes" if you want a clean look.
+
+---
+
+## ⚠️ Disclaimer
+
+**Use at your own risk.** This device controls fuel injectors which operate with flammable liquids and high currents.
+* Always ensure proper ventilation when working with fuel.
+* Ensure the MOSFET is properly isolated if the heatsink is not grounded.
+* The authors is not responsible for any damage to injectors, power supplies, or other equipment resulting from the use of this project.
+
+---
+*Designed in Altium Designer.*
