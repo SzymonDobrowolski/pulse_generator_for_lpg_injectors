@@ -91,4 +91,3 @@ Production-ready files are available in this repository. The project has been va
 * The authors are not responsible for any damage to injectors, power supplies, or other equipment resulting from the use of this project.
 
 ---
-*Designed in Altium Designer.*
