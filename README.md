@@ -1,3 +1,7 @@
+![Designed in Altium](https://img.shields.io/badge/Designed%20in-Altium%20Designer-005A9C?style=for-the-badge&logo=altiumdesigner&logoColor=white)
+![Status Prototype](https://img.shields.io/badge/Status-Prototype-orange?style=for-the-badge)
+![Hardware Open Source](https://img.shields.io/badge/Hardware-Open%20Source-success?style=for-the-badge)
+
 # LPG & Gasoline Injector Pulse Generator / Tester
 
 A professional PCB project for an injector driver designed to test and clean LPG (Liquefied Petroleum Gas) and gasoline fuel injectors. This device generates pulses to open injectors, making it an essential tool for ultrasonic cleaning baths or bench testing.
@@ -67,7 +71,7 @@ Based on the NE555 astable multivibrator configuration with adjustable frequency
 Production-ready files are available in this repository. The project has been validated for manufacturing with standard low-cost PCB houses (JLCPCB, PCBWay).
 
 **Files location:**
-* `/Project Outputs` contains the raw output.
+* `/Project Outputs for pulse_generator` contains the raw output.
 * Check the **Releases** section for the zipped `Pulse_generator_gerber_files.zip`.
 
 **Recommended Ordering Settings:**
