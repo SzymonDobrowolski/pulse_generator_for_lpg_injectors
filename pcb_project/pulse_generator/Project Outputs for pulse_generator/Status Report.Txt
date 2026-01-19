@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [pulse_generator.PrjPcb]
+   Generated File[pulse_generator-Plated.TXT]
+   Generated File[pulse_generator.LDP]
+   Generated File[pulse_generator.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 15:31:12 On 19.01.2026

@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : D:\Github\pulse_generator_for_lpg_injectors\pcb_project\pulse_generator\pulse_generator.PcbDoc
+Date         : 19.01.2026
+Time         : 16:03:18
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 95mmx95mm
+    Components on board, 35
+count : 2
