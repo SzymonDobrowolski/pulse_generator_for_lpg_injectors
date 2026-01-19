@@ -1,0 +1,14 @@
+Change Component Footprint: Designator=Q1 Old Footprint=FP-TO-220AB-MFG New Footprint=IRFZ44N-Footprint-1
+Change Component Comment : Designator=Q1 Old Comment=AUIRFZ44N New Comment=IRFZ44N
+Change Managed Component Library Link : Designator=Q1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID=076903AB-A3F5-4567-A3D9-4E7DF47F5835 New ItemGUID=db3afcf2-e7dc-458b-ad30-db110e5d8a6c Old RevisionGUID=971E8F23-2860-4E61-A39A-4B6EFE3C0A9A New RevisionGUID=968ad8a4-3a76-452f-afb4-cfddbb5e7821
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "FP-TO-220AB-MFG"; UniqueID = "\LDUAHMEU" ("\LDUAHMEU")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Current"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Surge Current"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peak Inverse Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"

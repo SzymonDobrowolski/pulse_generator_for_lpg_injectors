@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LUIQFHQE
 
 [Document3]
-DocumentPath=CAMtastic1.Cam
+DocumentPath=pulse_generator.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,7 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=CAMtastic2.Cam
+DocumentPath=CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=pulse_generator.BomDoc
+DocumentPath=CAMtastic2.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
