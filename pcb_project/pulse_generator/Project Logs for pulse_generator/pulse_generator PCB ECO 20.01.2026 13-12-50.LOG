@@ -1,0 +1,138 @@
+Removed Pin From Net: NetName=VCC Pin=R2-1
+Removed Pin From Net: NetName=SLV_DIS Pin=R5-2
+Removed Pin From Net: NetName=SLV_OUT Pin=R6-1
+Removed Pin From Net: NetName=NetQ1_1 Pin=R6-2
+Removed Pin From Net: NetName=GND Pin=R7-1
+Removed Pin From Net: NetName=NetQ1_1 Pin=R7-2
+Removed Pin From Net: NetName=NetR4_2 Pin=SW2-1
+Removed Pin From Net: NetName=NetR3_2 Pin=SW2-3
+Change Component Footprint: Designator=R1 Old Footprint=AXIAL-0.4 New Footprint=Resistor THT 0.4-Footprint-1
+Change Component Footprint: Designator=R2 Old Footprint=AXIAL-0.4 New Footprint=Resistor THT 0.4-Footprint-1
+Change Component Footprint: Designator=R3 Old Footprint=AXIAL-0.4 New Footprint=Resistor THT 0.4-Footprint-1
+Change Component Footprint: Designator=R4 Old Footprint=AXIAL-0.4 New Footprint=Resistor THT 0.4-Footprint-1
+Change Component Footprint: Designator=R5 Old Footprint=AXIAL-0.4 New Footprint=Resistor THT 0.4-Footprint-1
+Change Component Footprint: Designator=R6 Old Footprint=AXIAL-0.4 New Footprint=Resistor THT 0.4-Footprint-1
+Change Component Footprint: Designator=R7 Old Footprint=AXIAL-0.4 New Footprint=Resistor THT 0.4-Footprint-1
+Change Component Comment : Designator=R1 Old Comment=Res2 New Comment=Resistor THT 0.4
+Change Component Comment : Designator=R2 Old Comment=Res2 New Comment=Resistor THT 0.4
+Change Component Comment : Designator=R3 Old Comment=Res2 New Comment=Resistor THT 0.4
+Change Component Comment : Designator=R4 Old Comment=Res2 New Comment=Resistor THT 0.4
+Change Component Comment : Designator=R5 Old Comment=Res2 New Comment=Resistor THT 0.4
+Change Component Comment : Designator=R6 Old Comment=Res2 New Comment=Resistor THT 0.4
+Change Component Comment : Designator=R7 Old Comment=Res2 New Comment=Resistor THT 0.4
+Change Managed Component Library Link : Designator=R1 Old VaultGUID= New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID= New ItemGUID=37685b9c-873e-4bac-ab2d-572ffca72531 Old RevisionGUID= New RevisionGUID=b410a5c4-7e66-4bf3-8ee4-082e0544b578
+Change Managed Component Library Link : Designator=R2 Old VaultGUID= New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID= New ItemGUID=37685b9c-873e-4bac-ab2d-572ffca72531 Old RevisionGUID= New RevisionGUID=2e352c92-99b7-4395-822e-b1708b9706fa
+Change Managed Component Library Link : Designator=R3 Old VaultGUID= New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID= New ItemGUID=37685b9c-873e-4bac-ab2d-572ffca72531 Old RevisionGUID= New RevisionGUID=b410a5c4-7e66-4bf3-8ee4-082e0544b578
+Change Managed Component Library Link : Designator=R4 Old VaultGUID= New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID= New ItemGUID=37685b9c-873e-4bac-ab2d-572ffca72531 Old RevisionGUID= New RevisionGUID=b410a5c4-7e66-4bf3-8ee4-082e0544b578
+Change Managed Component Library Link : Designator=R5 Old VaultGUID= New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID= New ItemGUID=37685b9c-873e-4bac-ab2d-572ffca72531 Old RevisionGUID= New RevisionGUID=b410a5c4-7e66-4bf3-8ee4-082e0544b578
+Change Managed Component Library Link : Designator=R6 Old VaultGUID= New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID= New ItemGUID=37685b9c-873e-4bac-ab2d-572ffca72531 Old RevisionGUID= New RevisionGUID=b410a5c4-7e66-4bf3-8ee4-082e0544b578
+Change Managed Component Library Link : Designator=R7 Old VaultGUID= New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID= New ItemGUID=37685b9c-873e-4bac-ab2d-572ffca72531 Old RevisionGUID= New RevisionGUID=b410a5c4-7e66-4bf3-8ee4-082e0544b578
+Change component parameters: Designator = "R1" ("R1"); Footprint = "AXIAL-0.4"; UniqueID = "\GRFCFQTL" ("\GRFCFQTL")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "AXIAL-0.4"; UniqueID = "\YIVQCLVN" ("\YIVQCLVN")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "AXIAL-0.4"; UniqueID = "\HFFPLUDD" ("\HFFPLUDD")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "510K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "AXIAL-0.4"; UniqueID = "\BNTMGFSM" ("\BNTMGFSM")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "270K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5" ("R5"); Footprint = "AXIAL-0.4"; UniqueID = "\VBHHLJNM" ("\VBHHLJNM")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "160K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "AXIAL-0.4"; UniqueID = "\EUVZEOVS" ("\EUVZEOVS")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "AXIAL-0.4"; UniqueID = "\LLPNBMML" ("\LLPNBMML")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R8(Resistor THT 0.4-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=SLV_DIS Pin=R6-1
+Added Pin To Net: NetName=VCC Pin=R6-2
+Added Pin To Net: NetName=NetQ1_1 Pin=R7-1
+Added Pin To Net: NetName=SLV_OUT Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R8-2
+Added Pin To Net: NetName=NetR4_2 Pin=SW2-3
+Added Pin To Net: NetName=NetR3_2 Pin=SW2-4
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=SW2-1
+Added Net: Name=NetR5_2
+Added Member To Class: ClassName=pulse_generator Member=Component R8 Resistor THT 0.4

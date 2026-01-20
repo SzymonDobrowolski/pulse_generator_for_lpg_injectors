@@ -1,12 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : D:\Github\pulse_generator_for_lpg_injectors\pcb_project\pulse_generator\pulse_generator.PcbDoc
 Date     : 20.01.2026
-Time     : 00:37:28
-
-Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
-Rule Violations :0
+Time     : 14:30:25
 
 Processing Rule : Clearance Constraint (Gap=0.508mm) (InNetClass('High_Amp')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (InComponent('Q1')),(InComponent('Q1'))
@@ -49,6 +49,9 @@ Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (Disabled)(All)
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
