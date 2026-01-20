@@ -10,12 +10,12 @@ A professional PCB project for an injector driver designed to test and clean LPG
 
 ## 📋 Project Overview
 
-This project is built around the robust **NE555 timer** and the high-performance **IRF3205 MOSFET**. The PCB is engineered specifically to handle high current spikes typical of low-impedance injector coils.
+This project is built around the robust **NE555 timer** and the high-performance **IRFZ44N MOSFET**. The PCB is engineered specifically to handle high current spikes typical of low-impedance injector coils.
 
 It allows the user to simulate engine operation by driving the injectors, enabling effective cleaning of internal components when submerged in ultrasonic baths.
 
 ### Key Features
-* **High Current Design:** Powered by an **IRF3205** TO-220 MOSFET, capable of handling significant inductive loads.
+* **High Current Design:** Powered by an **IRFZ44N** TO-220 MOSFET, capable of handling significant inductive loads.
 * **Thermal Management:** Dedicated Keep-Out Zone and footprint for a substantial heatsink (e.g., Fischer Elektronik SK 09 20 SA) for continuous operation.
 * **Open Solder Mask Traces:** The bottom power traces feature exposed copper (no solder mask), allowing for manual tinning to significantly increase current carrying capacity.
 * **Robust Connectivity:** Industrial-grade 5.08mm screw terminals (ARK) for secure power and injector connections.
@@ -43,8 +43,8 @@ Based on the NE555 astable multivibrator configuration with adjustable frequency
 
 | Parameter | Value |
 | :--- | :--- |
-| **Dimensions** | ~95mm x 95mm |
-| **Layers** | 2 (Top Signal, Bottom Power) |
+| **Dimensions** | ~77mm x 87mm |
+| **Layers** | 2 |
 | **Material** | FR-4 Standard |
 | **Thickness** | 1.6 mm |
 | **Copper Weight** | 1 oz (35µm) - *Tinning recommended* |
@@ -57,7 +57,7 @@ Based on the NE555 astable multivibrator configuration with adjustable frequency
 
 | Designator | Component | Description |
 | :--- | :--- | :--- |
-| **Q1** | **IRF3205** | N-Channel Power MOSFET, TO-220 |
+| **Q1** | **IRFZ44N** | N-Channel Power MOSFET, TO-220 |
 | **U1** | **NE555P** | Precision Timer DIP-8 |
 | **Heatsink** | SK 09 20 SA | Fischer Elektronik (or compatible TO-220 vertical heatsink) |
 | **J1 - J4** | ARK 5.08mm | 2-pin Screw Terminal Blocks |
