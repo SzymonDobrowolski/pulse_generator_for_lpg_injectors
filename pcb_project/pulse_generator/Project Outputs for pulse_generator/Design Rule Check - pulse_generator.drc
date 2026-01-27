@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Github\pulse_generator_for_lpg_injectors\pcb_project\pulse_generator\pulse_generator.PcbDoc
 Date     : 20.01.2026
-Time     : 14:30:25
+Time     : 22:08:23
 
 Processing Rule : Clearance Constraint (Gap=0.508mm) (InNetClass('High_Amp')),(All)
 Rule Violations :0
