@@ -2,102 +2,8 @@
 FileName = pulse_generator.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Assembly
-      File : pulse_generator.GM20
-
-    Adding Layer      : Bottom Assembly
-
-
-Used DCodes :
-    D12
-    D59
-*************************************************************
-
-*************************************************************
-Generating : Top Component Center
-      File : pulse_generator.GM16
-
-    Adding Layer      : Top Component Center
-
-
-Used DCodes :
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : pulse_generator.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D10
-    D12
-    D59
-*************************************************************
-
-*************************************************************
-Generating : Top 3D Body
-      File : pulse_generator.GM13
-
-    Adding Layer      : Top 3D Body
-
-
-Used DCodes :
-    D10
-    D12
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Top Component Outline
-      File : pulse_generator.GM11
-
-    Adding Layer      : Top Component Outline
-
-
-Used DCodes :
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Top Assembly
-      File : pulse_generator.GM5
-
-    Adding Layer      : Top Assembly
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Top Designator
-      File : pulse_generator.GM3
-
-    Adding Layer      : Top Designator
-
-
-Used DCodes :
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : pulse_generator.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : pulse_generator.GBP
-
-    Adding Layer      : Bottom Paste
+Generating : Bottom Pad Master
+      File : pulse_generator.GPB
 
     Adding Layer      : Bottom Layer
 
@@ -105,13 +11,33 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+    D19
+    D20
+    D33
+    D34
+    D35
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : pulse_generator.GTP
-
-    Adding Layer      : Top Paste
+Generating : Top Pad Master
+      File : pulse_generator.GPT
 
     Adding Layer      : Top Layer
 
@@ -119,42 +45,45 @@ Generating : Top Paste
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : pulse_generator.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D18
     D19
     D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
     D33
     D34
     D35
-    D36
-    D37
-    D38
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : pulse_generator.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
 *************************************************************
 
 *************************************************************
@@ -194,25 +123,46 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : pulse_generator.GTO
+Generating : Bottom Solder
+      File : pulse_generator.GBS
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : pulse_generator.GPT
+Generating : Top Paste
+      File : pulse_generator.GTP
+
+    Adding Layer      : Top Paste
 
     Adding Layer      : Top Layer
 
@@ -220,33 +170,13 @@ Generating : Top Pad Master
 
 
 Used DCodes :
-    D17
-    D18
-    D33
-    D34
-    D35
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : pulse_generator.GPB
+Generating : Bottom Paste
+      File : pulse_generator.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -254,65 +184,40 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D17
-    D18
-    D33
-    D34
-    D35
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : pulse_generator.GBL
+Generating : Mechanical 1
+      File : pulse_generator.GM1
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Mechanical 1
 
 
 Used DCodes :
-    D15
-    D17
-    D18
-    D33
-    D34
-    D35
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : pulse_generator.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D10
+    D12
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : pulse_generator.GM3
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D12
 *************************************************************
 
 *************************************************************
@@ -326,8 +231,8 @@ Generating : Top Layer
 
 Used DCodes :
     D15
-    D17
-    D18
+    D19
+    D20
     D33
     D34
     D35
@@ -350,6 +255,101 @@ Used DCodes :
     D55
     D56
     D57
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : pulse_generator.GM11
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : pulse_generator.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : pulse_generator.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D12
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : pulse_generator.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D10
+    D12
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : pulse_generator.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : pulse_generator.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D19
+    D20
+    D33
+    D34
+    D35
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
 *************************************************************
 
 *************************************************************
