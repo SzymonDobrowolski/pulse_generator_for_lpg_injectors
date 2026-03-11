@@ -17,7 +17,6 @@ It allows the user to simulate engine operation by driving the injectors, enabli
 ### Key Features
 * **High Current Design:** Powered by an **IRFZ44N** TO-220 MOSFET, capable of handling significant inductive loads.
 * **Thermal Management:** Dedicated Keep-Out Zone and footprint for a substantial heatsink (e.g., Fischer Elektronik SK 09 20 SA) for continuous operation.
-* **Open Solder Mask Traces:** The bottom power traces feature exposed copper (no solder mask), allowing for manual tinning to significantly increase current carrying capacity.
 * **Robust Connectivity:** Industrial-grade 5.08mm screw terminals (ARK) for secure power and injector connections.
 * **Safety:** Integrated fuse holder footprint for circuit protection.
 
@@ -29,8 +28,7 @@ It allows the user to simulate engine operation by driving the injectors, enabli
 Clean component placement optimized for airflow and easy assembly.
 ![Top View](img/PCB_TOP.png)
 
-### Bottom Layout (Power Plane)
-Features wide, exposed tracks for the high-current path (Drain/Source) to minimize resistance and heat.
+### Bottom Layout
 ![Bottom View](img/PCB_BOT.png)
 
 ### Schematic Diagram
