@@ -81,39 +81,46 @@ Production-ready files are available in this repository. The project has been va
 
 ---
 
-## Preparation & Dry Test
-**Always perform a dry test before submerging the injectors.**
-* Connect the device to a **12V DC** power supply (min. 5A).
-* Set the frequency switch to **1 Hz DEF**.
-* Turn the **PWM (Duty Cycle)** knob to the **absolute minimum**.
-* Start the **Master Timer**.
-* **Verification:** You should hear a clear, metallic "click". If not, slowly increase the PWM knob until the internal needle starts moving.
+## 📖 Usage Guide
 
----
+### 1. Initial Setup & Dry Test
+**Always perform a dry test before submerging injectors in liquid.**
+1. Connect to a **12V DC** power supply (capable of delivering at least 5A-10A).
+2. Set the frequency switch to **1 Hz DEF**.
+3. Turn the **PWM (Duty Cycle)** knob to the **absolute minimum** (fully counter-clockwise).
+4. Start the **Master Timer**.
+5. **Verification:** Use a mechanic's stethoscope or touch the injector. You should hear a clear, metallic "click". 
+   * *If silent:* Slowly increase PWM until the internal needle starts moving. **Stop there.**
 
-## Frequency Selection
-Use the onboard switch to select the mode that matches your cleaning stage. Values are based on the PCB labels:
+### 2. Frequency Modes Explained
+The PCB labels correspond to optimized cleaning stages:
 
-| PCB Label | Measured Frequency | Application |
+| PCB Label | Real Frequency (Measured) | Application |
 | :--- | :--- | :--- |
-| **1 Hz DEF** | **~1.8 Hz** | Initial soaking. Slow pulses to break up heavy deposits. |
-| **25 Hz DEF** | **~33 Hz** | **Standard cleaning.** Recommended for most LPG and fuel injectors. |
-| **60 Hz DEF** | **~70 Hz** | Intensive flushing. High-speed actuation for final rinse. |
+| **1 Hz DEF** | **~1.8 Hz** | Initial "shock" soaking. Best for loosening heavy, gummy deposits. |
+| **25 Hz DEF** | **~33 Hz** | **Standard Cleaning.** Simulates engine idle/load. Ideal for most scenarios. |
+| **60 Hz DEF** | **~70 Hz** | Intensive flushing. Maximizes fluid exchange inside the injector. |
 
 ---
 
-## Safety Guidelines for Low-Z Injectors (e.g., 1.8 Ω)
-This device can deliver high current. For low-resistance injectors:
-* **PWM Control:** Keep the PWM knob at the lowest possible setting that maintains consistent clicking. This prevents the **1.8 Ω** coils from overheating.
-* **Liquid Level:** Immerse only the metal body and nozzles in the ultrasonic bath. 
-* ⚠️ **WARNING:** The cleaning fluid **must not** touch the electrical connectors or internal coils.
-* **Temperature Check:** Periodically touch the rail. If it feels hot (above 50°C), stop the timer immediately.
+## ⚠️ Special Note for Low-Z Injectors (1.8 Ω - 3 Ω)
+
+Low-resistance injectors (common in LPG rails) act like heaters when driven with a constant 12V signal. 
+
+> [!CAUTION]
+> **OVERHEATING RISK:** Running 1.8 Ω coils without a current-limiting resistor results in ~6.6A peaks. 
+> * **PWM Control:** Use the **lowest possible PWM setting** that maintains mechanical clicking. 
+> * **Liquid Level:** Immerse only the metal nozzle and rail body. **NEVER** let fluid touch the electrical plugs.
+> * **Monitoring:** Touch the rail every 60 seconds. If it exceeds **50°C (hot to the touch)**, stop immediately.
 
 ---
-## Post-Cleaning Maintenance
-1. Disconnect power.
-2. Blow out any remaining fluid using compressed air.
-3. Flush the injectors with a lubricant (e.g., WD-40) to protect internal springs and needles from corrosion.
+
+## 🧼 Cleaning & Maintenance
+
+1. **Submerge:** Place the nozzles in the ultrasonic bath (keeping connectors dry).
+2. **Cycle:** Run the preferred frequency mode for 3-5 minutes.
+3. **Dry:** After cleaning, blow out any remaining fluid with compressed air.
+4. **Protect:** Flush the internal mechanism with **WD-40** or light machine oil immediately to prevent rust on internal springs.
 
 ---
 
