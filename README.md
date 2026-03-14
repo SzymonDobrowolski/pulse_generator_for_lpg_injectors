@@ -81,6 +81,42 @@ Production-ready files are available in this repository. The project has been va
 
 ---
 
+## Preparation & Dry Test
+**Always perform a dry test before submerging the injectors.**
+* Connect the device to a **12V DC** power supply (min. 5A).
+* Set the frequency switch to **1 Hz DEF**.
+* Turn the **PWM (Duty Cycle)** knob to the **absolute minimum** (fully counter-clockwise).
+* Start the **Master Timer**.
+* **Verification:** You should hear a clear, metallic "click". If not, slowly increase the PWM knob until the internal needle starts moving.
+
+---
+
+## Frequency Selection
+Use the onboard switch to select the mode that matches your cleaning stage. Values are based on the PCB labels:
+
+| PCB Label | Measured Frequency | Application |
+| :--- | :--- | :--- |
+| **1 Hz DEF** | **~1.8 Hz** | Initial soaking. Slow pulses to break up heavy deposits. |
+| **25 Hz DEF** | **~33 Hz** | **Standard cleaning.** Recommended for most LPG and fuel injectors. |
+| **60 Hz DEF** | **~70 Hz** | Intensive flushing. High-speed actuation for final rinse. |
+
+---
+
+## Safety Guidelines for Low-Z Injectors (e.g., 1.8 Ω)
+This device can deliver high current. For low-resistance injectors:
+* **PWM Control:** Keep the PWM knob at the lowest possible setting that maintains consistent clicking. This prevents the **1.8 Ω** coils from overheating.
+* **Liquid Level:** Immerse only the metal body and nozzles in the ultrasonic bath. 
+* ⚠️ **WARNING:** The cleaning fluid **must not** touch the electrical connectors or internal coils.
+* **Temperature Check:** Periodically touch the rail. If it feels hot (above 50°C), stop the timer immediately.
+
+---
+## Post-Cleaning Maintenance
+1. Disconnect power.
+2. Blow out any remaining fluid using compressed air.
+3. Flush the injectors with a lubricant (e.g., WD-40) to protect internal springs and needles from corrosion.
+
+---
+
 ## ⚠️ Disclaimer
 
 **Use at your own risk.** This device controls fuel injectors which operate with flammable liquids and high currents.
