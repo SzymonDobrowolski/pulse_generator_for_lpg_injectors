@@ -85,7 +85,7 @@ Production-ready files are available in this repository. The project has been va
 **Always perform a dry test before submerging the injectors.**
 * Connect the device to a **12V DC** power supply (min. 5A).
 * Set the frequency switch to **1 Hz DEF**.
-* Turn the **PWM (Duty Cycle)** knob to the **absolute minimum** (fully counter-clockwise).
+* Turn the **PWM (Duty Cycle)** knob to the **absolute minimum**.
 * Start the **Master Timer**.
 * **Verification:** You should hear a clear, metallic "click". If not, slowly increase the PWM knob until the internal needle starts moving.
 
