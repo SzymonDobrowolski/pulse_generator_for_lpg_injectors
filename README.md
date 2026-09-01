@@ -15,24 +15,30 @@ This project is built around the robust **NE555 timer** and the high-performance
 It allows the user to simulate engine operation by driving the injectors, enabling effective cleaning of internal components when submerged in ultrasonic baths.
 
 ### Key Features
-* **High Current Design:** Powered by an **IRFZ44N** TO-220 MOSFET, capable of handling significant inductive loads.
+* **LTspice Verified:** Before hardware routing, the NE555 astable multivibrator logic and MOSFET switching behavior were fully simulated in LTspice to ensure stability under heavy inductive loads.
+* **High Current Design:** Powered by an **IRFZ44N** TO-220 MOSFET, capable of handling significant inductive load spikes.
 * **Thermal Management:** Dedicated Keep-Out Zone and footprint for a substantial heatsink (e.g., Fischer Elektronik SK 09 20 SA) for continuous operation.
 * **Robust Connectivity:** Industrial-grade 5.08mm screw terminals (ARK) for secure power and injector connections.
 * **Safety:** Integrated fuse holder footprint for circuit protection.
 
 ---
 
-## 📸 Design Gallery
+## 📸 Design Gallery & Prototype
 
-### Top Layout
+### Assembled Prototype
+The fully assembled PCB ready for testing.
+![Assembled Board 1](img/Test_3.jpg)
+![Assembled Board 2](img/Test_2.jpg)
+
+### PCB Layout (Top & Bottom)
 Clean component placement optimized for airflow and easy assembly.
-![Top View](img/PCB_TOP.png)
-
-### Bottom Layout
-![Bottom View](img/PCB_BOT.png)
+<p align="center">
+  <img src="img/PCB_TOP.png" width="48%" />
+  <img src="img/PCB_BOT.png" width="48%" />
+</p>
 
 ### Schematic Diagram
-Based on the NE555 astable multivibrator configuration with adjustable frequency/duty cycle.
+Based on the dual NE555 configuration with adjustable frequency/duty cycle.
 ![Schematic](img/SCHEMATIC.png)
 
 ---
@@ -46,7 +52,7 @@ Based on the NE555 astable multivibrator configuration with adjustable frequency
 | **Material** | FR-4 Standard |
 | **Thickness** | 1.6 mm |
 | **Copper Weight** | 1 oz (35µm) - *Tinning recommended* |
-| **Power Input** | 12V DC (Automotive standard) |
+| **Power Input** | 12V DC (Clean, stabilized power supply recommended) |
 | **Mounting** | 4x M3 Mounting Holes |
 
 ---
@@ -56,10 +62,10 @@ Based on the NE555 astable multivibrator configuration with adjustable frequency
 | Designator | Component | Description |
 | :--- | :--- | :--- |
 | **Q1** | **IRFZ44N** | N-Channel Power MOSFET, TO-220 |
-| **U1** | **NE555P** | Precision Timer DIP-8 |
+| **U1, U2** | **NE555P** | Precision Timer DIP-8 |
 | **Heatsink** | SK 09 20 SA | Fischer Elektronik (or compatible TO-220 vertical heatsink) |
 | **J1 - J4** | ARK 5.08mm | 2-pin Screw Terminal Blocks |
-| **VR1** | Potentiometer | For Frequency/Duty Cycle adjustment |
+| **VR1** | Potentiometer | For PWM (Duty Cycle) adjustment |
 | **F1** | Fuse Holder | Automotive blade fuse holder |
 
 ---
@@ -71,13 +77,6 @@ Production-ready files are available in this repository. The project has been va
 **Files location:**
 * `/Project Outputs for pulse_generator` contains the raw output.
 * Check the **Releases** section for the zipped `Pulse_generator_gerber_files.zip`.
-
-**Recommended Ordering Settings:**
-* **Layers:** 2
-* **Thickness:** 1.6mm
-* **Solder Mask:** Green (or preferred color)
-* **Surface Finish:** HASL (Lead or Lead-Free)
-* **Remove Order Number:** Specify "Yes" if you want a clean look.
 
 ---
 
@@ -105,13 +104,26 @@ The PCB labels correspond to optimized cleaning stages:
 
 ## ⚠️ Special Note for Low-Z Injectors (1.8 Ω - 3 Ω)
 
-Low-resistance injectors (common in LPG rails) act like heaters when driven with a constant 12V signal. 
+Low-resistance injectors act like heaters when driven with a constant 12V signal. 
 
 > [!CAUTION]
 > **OVERHEATING RISK:** Running 1.8 Ω coils without a current-limiting resistor results in ~6.6A peaks. 
 > * **PWM Control:** Use the **lowest possible PWM setting** that maintains mechanical clicking. 
 > * **Liquid Level:** Immerse only the metal nozzle and rail body. **NEVER** let fluid touch the electrical plugs.
 > * **Monitoring:** Touch the rail every 60 seconds. If it exceeds **50°C (hot to the touch)**, stop immediately.
+
+---
+
+## 🎥 Real-World Validation (Tartarini Rail)
+
+The device was successfully tested and validated using a **Tartarini LPG injector rail** (approx. 3Ω coils) in an ultrasonic cleaner. 
+
+![Ultrasonic Bath Setup](img/Test_1.jpg)
+
+*Testing procedure in action:* The device was set to 33 Hz with the PWM at the minimum threshold to prevent coil overheating. The rail was immersed correctly, keeping the upper electrical connectors completely dry. 
+
+**Watch the device in action:**
+> 👉 [Click here to view the test video](img/VID_20260714_185151.mp4)
 
 ---
 
@@ -130,5 +142,3 @@ Low-resistance injectors (common in LPG rails) act like heaters when driven with
 * Always ensure proper ventilation when working with fuel.
 * Ensure the MOSFET is properly isolated if the heatsink is not grounded.
 * The authors are not responsible for any damage to injectors, power supplies, or other equipment resulting from the use of this project.
-
----
